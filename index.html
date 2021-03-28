@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Elisa's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://alecanl.github.io/elisa-portfolio/"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/AlecANL/elisa-portfolio/raw/main/assets/img/design.png"
+    />
+    <meta
+      property="og:description"
+      content="Una Frontend Developer que le encanta implementar diseños que
+              inspiran y atraen a las personas."
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <title>Elisa's Portfolio | Projects</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="header-content">
+          <img src="./assets/img/LOGO.png" alt="logo elisa's portfolio" />
+          <nav>
+            <ul>
+              <li><a href="#">hola</a></li>
+              <li><a href="#projects">proyectos</a></li>
+              <li><a href="#contact">hablemos</a></li>
+            </ul>
+          </nav>
+          <button class="btn btn--green w-20">curriculum</button>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="wrapper">
+        <div class="hero-content">
+          <div class="hero-content__image">
+            <img src="./assets/img/person-1.png" alt="hero elisa" />
+          </div>
+          <div class="hero-content__description">
+            <h1><span>¡Hola a todos!</span> <span>Soy Elisa</span></h1>
+            <p>
+              Una Frontend Developer que le encanta implementar diseños que
+              inspiran y atraen a las personas.
+            </p>
+            <div class="feed-social">
+              <ul>
+                <li class="feed-item">
+                  <a href="#">
+                    <img
+                      src="./assets/img/icons/icon-phone.svg"
+                      alt="phone icon"
+                    />
+                  </a>
+                </li>
+                <li class="feed-item">
+                  <a href="#">
+                    <img
+                      src="./assets/img/icons/icon-important_mail.svg"
+                      alt="email icon"
+                    />
+                  </a>
+                </li>
+                <li class="feed-item">
+                  <a href="#">
+                    <img
+                      src="./assets/img/icons/icon-instagram.svg"
+                      alt="instagram icon"
+                    />
+                  </a>
+                </li>
+                <li class="feed-item">
+                  <a href="#">
+                    <img
+                      src="./assets/img/icons/icon-twitter_squared.svg"
+                      alt="twitter icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sphere-blur sphere--red sphere--hero"></div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="wrapper">
+        <div class="about-content">
+          <p>
+            A lo largo de mi carrera como Frontend, he tenido el privilegio de
+            trabajar en proyectos retadores e increíbles
+          </p>
+          <h3>Aquí hay algunos que me gustaría compartir.</h3>
+          <img src="./assets/img/icons/icons-down.svg" alt="icon arrow down" />
+          <div class="sphere-blur sphere--green sphere--about"></div>
+        </div>
+      </div>
+    </section>
+    <main class="projects">
+      <div class="wrapper">
+        <div class="projects-content" id="projects">
+          <div class="sphere-blur sphere--green sphere--1"></div>
+          <div class="sphere-blur sphere--green sphere--2"></div>
+          <!-- <article; class="project">
+            <div class;="project__image">
+              <img src;="./assets/img/leo.png"; alt="projects project" />
+            </div>
+            <div; class="project__description">
+              <span class;="title">leonidasesteban.com</span>
+              <p>
+                Accede; a; más; de; 120; proyectos; que; te; ayudarán; a; mejorar; tus;
+                habilidades; como; desarrollador; Front-End.
+              </p>
+              <div; class="buttons">
+                <button class;="btn btn--initial w-100 m-3">
+                  <i>
+                    <img
+                      src;="./assets/img/icons/icon-github.svg";
+                      alt="icon github"
+                    />
+                  </i>
+                  <span>ver; codigo</span>
+                </button>
+                <button; class="btn btn--green w-100 m-3">ver; proyecto</button;>
+              </div>
+            </div>
+            <blockquote>
+              <img src;="./assets/img/user3.png"; alt="user 1" />
+              <p class;="quote">
+                "Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de;
+                desarrollo. Lo; que; nos; hubiera; llevado; 6; meses; solo; les; llevó;
+                1,5; meses; ".
+              </p>
+              <p>LEONIDAS; ESTEBAN / COFUNDADOR; Y; CEO; LEONIDASESTEBAN.COM</p>
+            </blockquote>
+          </article> -->
+        </div>
+      </div>
+    </main>
+    <section class="contact-form">
+      <div class="wrapper">
+        <div class="contact-form-content" id="contact">
+          <div class="form-wrapper">
+            <span>hablemos</span>
+            <p>
+              Si está interesado en trabajar conmigo en su próximo proyecto, no
+              dude en ponerse en contacto conmigo.
+            </p>
+            <form>
+              <div class="form-group">
+                <label for="name">Nombre completo</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Nombre"
+                  aria-label="nombre"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico </label>
+                <input
+                  id="email"
+                  placeholder="Correo electrónico"
+                  type="email"
+                  name="email"
+                  aria-label="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button class="btn btn--green" type="submit">
+                enviar mensaje
+              </button>
+            </form>
+          </div>
+          <div class="sphere-blur sphere--green sphere--form"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-content">
+          <img class="logo" src="./assets/img/LOGO.png" alt="logo portfolio" />
+          <p>
+            <span> Hecho con 🖤 de Elisa. </span>
+            <span> Copyright 2021 - Todos los derechos reservados. </span>
+          </p>
+          <di class="feed-social">
+            <ul>
+              <li class="feed-item">
+                <a href="#">
+                  <img
+                    src="./assets/img/icons/icon-phone.svg"
+                    ;
+                    alt="phone icon"
+                  />
+                </a>
+              </li>
+              <li class="feed-item">
+                <a href="#">
+                  <img
+                    src="./assets/img/icons/icon-important_mail.svg"
+                    ;
+                    alt="email icon"
+                  />
+                </a>
+              </li>
+              <li class="feed-item">
+                <a href="#">
+                  <img
+                    src="./assets/img/icons/icon-instagram.svg"
+                    ;
+                    alt="instagram icon"
+                  />
+                </a>
+              </li>
+              <li class="feed-item">
+                <a href;="#">
+                  <img
+                    src="./assets/img/icons/icon-twitter_squared.svg"
+                    ;
+                    alt="twitter icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </di>
+        </div>
+      </div>
+    </footer>
+    <!-- <script type="module src="./assets/js/app.js"></script> -->
+    <script type="module" src="./assets/js/app.js"></script>
+  </body>
+</html>
